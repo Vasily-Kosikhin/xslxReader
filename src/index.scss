@@ -1,0 +1,48 @@
+.app {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+    .container {
+      width: 800px;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: green;
+      text-align: center;
+      #input {
+        width: 800px;
+        height: 100px;
+        display: block;
+        font-size: 60px;
+      }
+    }
+  }
+.xlsxContainer {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  .row {
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.block {
+  outline: 1px solid black;
+  font-size: 40px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
